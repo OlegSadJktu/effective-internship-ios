@@ -7,43 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2ADC6DCCF3E6B8BA620C322505CCFD45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8C9FEE9E50BF380AB362FD58169FA3FD /* Pods-effective-internship-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F649F75ABABECB110E266FBF02EFE7 /* Pods-effective-internship-dummy.m */; };
-		B26E8949614A43834597533F0C7DC677 /* Pods-effective-internship-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBD6FF0BBB94DE1E706AB48459010E0 /* Pods-effective-internship-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D2508B72FA29FC9AE8ED4F0DAF6D703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4AB05A02F61E59C33771819461FB9776 /* Pods-effective-internship-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4099AAFFF5145996705EEFB874DBB502 /* Pods-effective-internship-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CEB7784C8368B31A128A59F94A301DC /* Pods-effective-internship-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6919F99E8077487944AA5114A01656 /* Pods-effective-internship-dummy.m */; };
+		D40AD7C1DEED1ED600410DD4082C932A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D62CED151850A38E1BC4CE8A45EDF5D0 /* PagingCollectionViewLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0C9CF14AF394C15B4AC10C8C4C0BC2 /* PagingCollectionViewLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9CBF46A369886830F26969FAA6989B8 /* PagingCollectionViewLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02BC3CF86F05EF14E0CDE568568A709E /* PagingCollectionViewLayout-dummy.m */; };
+		DCBA3574FA9FF22F2BC5BD9662A73E44 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF35F141F156C9D654DCCE0D650EBFD /* PagingCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		48C75B38A02FA0299FA71C1745432280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821DAE73BAD04E30C664D9BD78CC814B;
+			remoteInfo = PagingCollectionViewLayout;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		23680CFFBEBC951EFDED3BBCC2D68F64 /* Pods-effective-internship.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-effective-internship.modulemap"; sourceTree = "<group>"; };
-		67F649F75ABABECB110E266FBF02EFE7 /* Pods-effective-internship-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-effective-internship-dummy.m"; sourceTree = "<group>"; };
+		02BC3CF86F05EF14E0CDE568568A709E /* PagingCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PagingCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
+		04C041E82712CD418E3F5D41CC595F3E /* Pods-effective-internship-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-effective-internship-acknowledgements.markdown"; sourceTree = "<group>"; };
+		069014A7B8A61ED7B9F2F7DCF17CA23F /* PagingCollectionViewLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingCollectionViewLayout-prefix.pch"; sourceTree = "<group>"; };
+		0C6919F99E8077487944AA5114A01656 /* Pods-effective-internship-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-effective-internship-dummy.m"; sourceTree = "<group>"; };
+		2AF96E1C9FCBCACF67AF00F249A77E61 /* Pods-effective-internship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-effective-internship.debug.xcconfig"; sourceTree = "<group>"; };
+		2E48E730BF0DBF264AE6798AED21D529 /* Pods-effective-internship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-effective-internship.release.xcconfig"; sourceTree = "<group>"; };
+		4099AAFFF5145996705EEFB874DBB502 /* Pods-effective-internship-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-effective-internship-umbrella.h"; sourceTree = "<group>"; };
+		4C2FB21339C8067EA3B478E4E6C48F11 /* Pods-effective-internship-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-effective-internship-Info.plist"; sourceTree = "<group>"; };
+		5096FBD1E9AEDBA4EA466FD0B003B247 /* PagingCollectionViewLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PagingCollectionViewLayout-Info.plist"; sourceTree = "<group>"; };
+		51D8AA4FC034F0090ED9558DCD12951D /* Pods-effective-internship.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-effective-internship.modulemap"; sourceTree = "<group>"; };
+		54D4E13808F36887459533ED39A30F30 /* Pods-effective-internship-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-effective-internship-frameworks.sh"; sourceTree = "<group>"; };
+		5EF35F141F156C9D654DCCE0D650EBFD /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		6FBF055C8799807CC845CE364A405FB0 /* PagingCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PagingCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		89D30B62C3C9D6E6E1CE7149805D93FC /* Pods-effective-internship-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-effective-internship-Info.plist"; sourceTree = "<group>"; };
+		755CC4C3536A647F90777FDF9F71C12A /* PagingCollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingCollectionViewLayout.debug.xcconfig; sourceTree = "<group>"; };
+		8A0C9CF14AF394C15B4AC10C8C4C0BC2 /* PagingCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PagingCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8E7E883B6F568F4E5951540793211F4 /* Pods-effective-internship-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-effective-internship-acknowledgements.plist"; sourceTree = "<group>"; };
-		CED0B8A67F1344DCF63F1FF9E9A5A1E0 /* Pods-effective-internship-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-effective-internship-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D99807A545E979933C14A7E648E13921 /* Pods-effective-internship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-effective-internship.release.xcconfig"; sourceTree = "<group>"; };
+		B1D76F982DA0793866252C70565AEB74 /* PagingCollectionViewLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PagingCollectionViewLayout; path = PagingCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E035DF9531D3455EBC56A64A08DA2D19 /* Pods-effective-internship */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-effective-internship"; path = Pods_effective_internship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECBD6FF0BBB94DE1E706AB48459010E0 /* Pods-effective-internship-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-effective-internship-umbrella.h"; sourceTree = "<group>"; };
-		FD0E034BB246E6D670E188BB05168CA8 /* Pods-effective-internship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-effective-internship.debug.xcconfig"; sourceTree = "<group>"; };
+		F874B65882C83E704C73ED5B3F0F9F1D /* Pods-effective-internship-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-effective-internship-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8A2A55D036533E0BE936474BE8F436B /* PagingCollectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingCollectionViewLayout.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		98F63F8DD1CFB24E3D882C45FA4C6142 /* Frameworks */ = {
+		986E59A5A0BDCE3B259DB4209EBB7E16 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ADC6DCCF3E6B8BA620C322505CCFD45 /* Foundation.framework in Frameworks */,
+				3D2508B72FA29FC9AE8ED4F0DAF6D703 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F83F71A4FDB9F1543242E2205B39681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40AD7C1DEED1ED600410DD4082C932A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4DC139B3FB6418F78B6C8CCA48B54354 /* Products */ = {
+		223BEC2AA42BA9F3E1DED4BFFBD08666 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E035DF9531D3455EBC56A64A08DA2D19 /* Pods-effective-internship */,
+				9468DED258FD72D30F453E77CE7B303A /* Pods-effective-internship */,
 			);
-			name = Products;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35DD1390F43091280AB046CEEE4F92DE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6FBF055C8799807CC845CE364A405FB0 /* PagingCollectionViewLayout.modulemap */,
+				02BC3CF86F05EF14E0CDE568568A709E /* PagingCollectionViewLayout-dummy.m */,
+				5096FBD1E9AEDBA4EA466FD0B003B247 /* PagingCollectionViewLayout-Info.plist */,
+				069014A7B8A61ED7B9F2F7DCF17CA23F /* PagingCollectionViewLayout-prefix.pch */,
+				8A0C9CF14AF394C15B4AC10C8C4C0BC2 /* PagingCollectionViewLayout-umbrella.h */,
+				755CC4C3536A647F90777FDF9F71C12A /* PagingCollectionViewLayout.debug.xcconfig */,
+				F8A2A55D036533E0BE936474BE8F436B /* PagingCollectionViewLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PagingCollectionViewLayout";
+			sourceTree = "<group>";
+		};
+		3CC41E1204BE46D4E2C25933A4A8C16F /* PagingCollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5EF35F141F156C9D654DCCE0D650EBFD /* PagingCollectionViewLayout.swift */,
+				35DD1390F43091280AB046CEEE4F92DE /* Support Files */,
+			);
+			name = PagingCollectionViewLayout;
+			path = PagingCollectionViewLayout;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -54,13 +111,48 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		9468DED258FD72D30F453E77CE7B303A /* Pods-effective-internship */ = {
+			isa = PBXGroup;
+			children = (
+				51D8AA4FC034F0090ED9558DCD12951D /* Pods-effective-internship.modulemap */,
+				04C041E82712CD418E3F5D41CC595F3E /* Pods-effective-internship-acknowledgements.markdown */,
+				F874B65882C83E704C73ED5B3F0F9F1D /* Pods-effective-internship-acknowledgements.plist */,
+				0C6919F99E8077487944AA5114A01656 /* Pods-effective-internship-dummy.m */,
+				54D4E13808F36887459533ED39A30F30 /* Pods-effective-internship-frameworks.sh */,
+				4C2FB21339C8067EA3B478E4E6C48F11 /* Pods-effective-internship-Info.plist */,
+				4099AAFFF5145996705EEFB874DBB502 /* Pods-effective-internship-umbrella.h */,
+				2AF96E1C9FCBCACF67AF00F249A77E61 /* Pods-effective-internship.debug.xcconfig */,
+				2E48E730BF0DBF264AE6798AED21D529 /* Pods-effective-internship.release.xcconfig */,
+			);
+			name = "Pods-effective-internship";
+			path = "Target Support Files/Pods-effective-internship";
+			sourceTree = "<group>";
+		};
+		A461D93000152A35E6E545344AA07BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D76F982DA0793866252C70565AEB74 /* PagingCollectionViewLayout */,
+				E035DF9531D3455EBC56A64A08DA2D19 /* Pods-effective-internship */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C90817FB6E26D2AB3F914041265B26E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CC41E1204BE46D4E2C25933A4A8C16F /* PagingCollectionViewLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				4DC139B3FB6418F78B6C8CCA48B54354 /* Products */,
-				D54DA9ACB9413A08E313BE3542B8BF7F /* Targets Support Files */,
+				C90817FB6E26D2AB3F914041265B26E4 /* Pods */,
+				A461D93000152A35E6E545344AA07BAA /* Products */,
+				223BEC2AA42BA9F3E1DED4BFFBD08666 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,56 +164,59 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D54DA9ACB9413A08E313BE3542B8BF7F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8F5D5694E9E00BED6C224B6C8B854D4 /* Pods-effective-internship */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E8F5D5694E9E00BED6C224B6C8B854D4 /* Pods-effective-internship */ = {
-			isa = PBXGroup;
-			children = (
-				23680CFFBEBC951EFDED3BBCC2D68F64 /* Pods-effective-internship.modulemap */,
-				CED0B8A67F1344DCF63F1FF9E9A5A1E0 /* Pods-effective-internship-acknowledgements.markdown */,
-				A8E7E883B6F568F4E5951540793211F4 /* Pods-effective-internship-acknowledgements.plist */,
-				67F649F75ABABECB110E266FBF02EFE7 /* Pods-effective-internship-dummy.m */,
-				89D30B62C3C9D6E6E1CE7149805D93FC /* Pods-effective-internship-Info.plist */,
-				ECBD6FF0BBB94DE1E706AB48459010E0 /* Pods-effective-internship-umbrella.h */,
-				FD0E034BB246E6D670E188BB05168CA8 /* Pods-effective-internship.debug.xcconfig */,
-				D99807A545E979933C14A7E648E13921 /* Pods-effective-internship.release.xcconfig */,
-			);
-			name = "Pods-effective-internship";
-			path = "Target Support Files/Pods-effective-internship";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C1996DA6432BD5E3A027DF0EC47D74A0 /* Headers */ = {
+		C4DC96A93EAF3F8DA90803E28CB9AB75 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B26E8949614A43834597533F0C7DC677 /* Pods-effective-internship-umbrella.h in Headers */,
+				4AB05A02F61E59C33771819461FB9776 /* Pods-effective-internship-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E2415B4A5593D95636ABC271E48437 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62CED151850A38E1BC4CE8A45EDF5D0 /* PagingCollectionViewLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8AB61C3432FF63855B400218C98B7517 /* Pods-effective-internship */ = {
+		821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EAF5385B0CD495E1E1BC5C843FB248D /* Build configuration list for PBXNativeTarget "Pods-effective-internship" */;
+			buildConfigurationList = 0B0E888847187F5D20142A9B9A966FE5 /* Build configuration list for PBXNativeTarget "PagingCollectionViewLayout" */;
 			buildPhases = (
-				C1996DA6432BD5E3A027DF0EC47D74A0 /* Headers */,
-				F81421C739E96848AA7347AE7DB5382B /* Sources */,
-				98F63F8DD1CFB24E3D882C45FA4C6142 /* Frameworks */,
-				54534DDBE5DDDDEDA76A905A5A2947E9 /* Resources */,
+				D1E2415B4A5593D95636ABC271E48437 /* Headers */,
+				2DB8911F06084D56F09FFEA23C97F77F /* Sources */,
+				986E59A5A0BDCE3B259DB4209EBB7E16 /* Frameworks */,
+				B0D40F249664D9E5DF100FDA669262C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = PagingCollectionViewLayout;
+			productName = PagingCollectionViewLayout;
+			productReference = B1D76F982DA0793866252C70565AEB74 /* PagingCollectionViewLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AB61C3432FF63855B400218C98B7517 /* Pods-effective-internship */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 596C798BA1635EFDCDF404FFAD286633 /* Build configuration list for PBXNativeTarget "Pods-effective-internship" */;
+			buildPhases = (
+				C4DC96A93EAF3F8DA90803E28CB9AB75 /* Headers */,
+				FA3248F4F9FB05A7D0BD28D1763A8A72 /* Sources */,
+				9F83F71A4FDB9F1543242E2205B39681 /* Frameworks */,
+				FCB3BF3D3DE79629EF8CB5A9D7D8A564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F3925EC194BFE30C3E62F27BDFA4D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-effective-internship";
 			productName = Pods_effective_internship;
@@ -146,17 +241,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4DC139B3FB6418F78B6C8CCA48B54354 /* Products */;
+			productRefGroup = A461D93000152A35E6E545344AA07BAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */,
 				8AB61C3432FF63855B400218C98B7517 /* Pods-effective-internship */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		54534DDBE5DDDDEDA76A905A5A2947E9 /* Resources */ = {
+		B0D40F249664D9E5DF100FDA669262C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB3BF3D3DE79629EF8CB5A9D7D8A564 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,18 +269,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F81421C739E96848AA7347AE7DB5382B /* Sources */ = {
+		2DB8911F06084D56F09FFEA23C97F77F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C9FEE9E50BF380AB362FD58169FA3FD /* Pods-effective-internship-dummy.m in Sources */,
+				DCBA3574FA9FF22F2BC5BD9662A73E44 /* PagingCollectionViewLayout.swift in Sources */,
+				D9CBF46A369886830F26969FAA6989B8 /* PagingCollectionViewLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3248F4F9FB05A7D0BD28D1763A8A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CEB7784C8368B31A128A59F94A301DC /* Pods-effective-internship-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		62F3925EC194BFE30C3E62F27BDFA4D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingCollectionViewLayout;
+			target = 821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */;
+			targetProxy = 48C75B38A02FA0299FA71C1745432280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -243,12 +364,11 @@
 			};
 			name = Debug;
 		};
-		4EAA556E7F467AE7B93C060DF20F5EBF /* Debug */ = {
+		2FF07B1F767A013E7D6C86062257CBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD0E034BB246E6D670E188BB05168CA8 /* Pods-effective-internship.debug.xcconfig */;
+			baseConfigurationReference = 2AF96E1C9FCBCACF67AF00F249A77E61 /* Pods-effective-internship.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -259,7 +379,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-effective-internship/Pods-effective-internship-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -280,7 +400,42 @@
 			};
 			name = Debug;
 		};
-		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+		85A0329E72A97DAE05C3A35979EB59ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A2A55D036533E0BE936474BE8F436B /* PagingCollectionViewLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = PagingCollectionViewLayout;
+				PRODUCT_NAME = PagingCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,12 +497,45 @@
 			};
 			name = Release;
 		};
-		DA1447ACE7576243DD9FA8D7955AC229 /* Release */ = {
+		D4DB41EC65AAD06F7BBFC6B9B4FEBE9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D99807A545E979933C14A7E648E13921 /* Pods-effective-internship.release.xcconfig */;
+			baseConfigurationReference = 755CC4C3536A647F90777FDF9F71C12A /* PagingCollectionViewLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PagingCollectionViewLayout/PagingCollectionViewLayout.modulemap";
+				PRODUCT_MODULE_NAME = PagingCollectionViewLayout;
+				PRODUCT_NAME = PagingCollectionViewLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F242C075184AFC9484FB7B8E01ACD4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E48E730BF0DBF264AE6798AED21D529 /* Pods-effective-internship.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -358,7 +546,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-effective-internship/Pods-effective-internship-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,11 +571,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0EAF5385B0CD495E1E1BC5C843FB248D /* Build configuration list for PBXNativeTarget "Pods-effective-internship" */ = {
+		0B0E888847187F5D20142A9B9A966FE5 /* Build configuration list for PBXNativeTarget "PagingCollectionViewLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4EAA556E7F467AE7B93C060DF20F5EBF /* Debug */,
-				DA1447ACE7576243DD9FA8D7955AC229 /* Release */,
+				D4DB41EC65AAD06F7BBFC6B9B4FEBE9F /* Debug */,
+				85A0329E72A97DAE05C3A35979EB59ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -395,8 +583,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
-				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		596C798BA1635EFDCDF404FFAD286633 /* Build configuration list for PBXNativeTarget "Pods-effective-internship" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF07B1F767A013E7D6C86062257CBB8 /* Debug */,
+				F242C075184AFC9484FB7B8E01ACD4FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
