@@ -11,6 +11,12 @@ class HeroCell: UICollectionViewCell {
 
     @IBOutlet weak var namedCell: UILabel!
     
+    @IBOutlet weak var heroCell: UILabel!
+    
+    func heroConfigure (with heroName: String) {
+        heroCell.text = heroName
+    }
+    
     func configure (with heroName: String)  {
         namedCell.text = heroName	
     }

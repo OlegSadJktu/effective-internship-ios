@@ -27,10 +27,10 @@ class MyViewController: UIViewController, UICollectionViewDataSource, UICollecti
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         // get a reference to our storyboard cell
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! MyCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath as IndexPath) as! HeroCell
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
-        cell.myLabel.text = self.items[indexPath.row] // The row value is the same as the index of the desired text within the array.
+        cell.heroCell.text = self.items[indexPath.row] // The row value is the same as the index of the desired text within the array.
         cell.backgroundColor = UIColor.cyan // make cell more visible in our example project
         
         return cell

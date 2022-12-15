@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BAC8074FA1C440053D3242FB /* Pods_effective_internship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B39EA5CECFD747ECBB21031 /* Pods_effective_internship.framework */; };
+		F74D5D4D294B02FA00ECBB71 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D5D4C294B02FA00ECBB71 /* TestController.swift */; };
+		F74D5D5D294B09AA00ECBB71 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74D5D5C294B09AA00ECBB71 /* PagingViewController.swift */; };
 		F74F11F42948605300F38350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F11F32948605300F38350 /* AppDelegate.swift */; };
 		F74F11F62948605300F38350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F11F52948605300F38350 /* SceneDelegate.swift */; };
 		F74F11F82948605300F38350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74F11F72948605300F38350 /* ViewController.swift */; };
@@ -23,6 +25,8 @@
 		2B39EA5CECFD747ECBB21031 /* Pods_effective_internship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_effective_internship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C226E3D449D24EED371BEA /* Pods-effective-internship.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-effective-internship.debug.xcconfig"; path = "Target Support Files/Pods-effective-internship/Pods-effective-internship.debug.xcconfig"; sourceTree = "<group>"; };
 		DD48E50C6444E0DE488767F5 /* Pods-effective-internship.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-effective-internship.release.xcconfig"; path = "Target Support Files/Pods-effective-internship/Pods-effective-internship.release.xcconfig"; sourceTree = "<group>"; };
+		F74D5D4C294B02FA00ECBB71 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
+		F74D5D5C294B09AA00ECBB71 /* PagingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingViewController.swift; sourceTree = "<group>"; };
 		F74F11F02948605300F38350 /* effective-internship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "effective-internship.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74F11F32948605300F38350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F74F11F52948605300F38350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				F74F12012948605300F38350 /* Info.plist */,
 				F74F120F2948677800F38350 /* CollectionViewController.swift */,
 				F74F12182948744F00F38350 /* HeroCell.swift */,
+				F74D5D4C294B02FA00ECBB71 /* TestController.swift */,
+				F74D5D5C294B09AA00ECBB71 /* PagingViewController.swift */,
 			);
 			path = "effective-internship";
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 				F74F11EC2948605300F38350 /* Sources */,
 				F74F11ED2948605300F38350 /* Frameworks */,
 				F74F11EE2948605300F38350 /* Resources */,
+				8AEEEC57750F85C36819D8AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,6 +183,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		8AEEEC57750F85C36819D8AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-effective-internship/Pods-effective-internship-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-effective-internship/Pods-effective-internship-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-effective-internship/Pods-effective-internship-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F69D0926A93FED43A0C02D75 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,10 +231,12 @@
 			files = (
 				F74F11F82948605300F38350 /* ViewController.swift in Sources */,
 				F74F120E294862EC00F38350 /* File.swift in Sources */,
+				F74D5D5D294B09AA00ECBB71 /* PagingViewController.swift in Sources */,
 				F74F11F42948605300F38350 /* AppDelegate.swift in Sources */,
 				F74F12192948744F00F38350 /* HeroCell.swift in Sources */,
 				F74F11F62948605300F38350 /* SceneDelegate.swift in Sources */,
 				F74F12102948677800F38350 /* CollectionViewController.swift in Sources */,
+				F74D5D4D294B02FA00ECBB71 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

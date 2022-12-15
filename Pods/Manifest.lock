@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 9fe90ff979e68ab4ca23c9b386ab3a23e37b5769
+PODS:
+  - PagingCollectionViewLayout (0.0.4)
+
+DEPENDENCIES:
+  - PagingCollectionViewLayout
+
+SPEC REPOS:
+  trunk:
+    - PagingCollectionViewLayout
+
+SPEC CHECKSUMS:
+  PagingCollectionViewLayout: a75339d9fe45affc116b6770f37c884a8a5e9cd9
+
+PODFILE CHECKSUM: be1e560bc3573c22934913d8a31da4ef860016f1
 
 COCOAPODS: 1.11.3

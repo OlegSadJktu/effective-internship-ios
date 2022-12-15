@@ -3,4 +3,99 @@
    uuid = "F7FBA848-FD60-46EA-837C-81A6D69810D3"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "effective-internship/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26 - 954ad2779185e60d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "effective_internship.MyCollectionViewCell.__allocating_init(frame: __C.CGRect) -&gt; effective_internship.MyCollectionViewCell"
+                  moduleName = "effective-internship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user225687/Desktop/effective-internship/effective-internship/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26 - 4b5cb99f22c7148d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "effective_internship.MyCollectionViewCell.init(frame: __C.CGRect) -&gt; effective_internship.MyCollectionViewCell"
+                  moduleName = "effective-internship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user225687/Desktop/effective-internship/effective-internship/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26 - 8365fb6ec4da27bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "effective_internship.MyCollectionViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;effective_internship.MyCollectionViewCell&gt;"
+                  moduleName = "effective-internship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user225687/Desktop/effective-internship/effective-internship/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26 - d68b2282e8b24eda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "effective_internship.MyCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;effective_internship.MyCollectionViewCell&gt;"
+                  moduleName = "effective-internship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user225687/Desktop/effective-internship/effective-internship/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "9FB3173C-6644-446C-B94D-F61CD0090E26 - ec97f6739260c229"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "effective_internship.MyCollectionViewCell.__deallocating_deinit"
+                  moduleName = "effective-internship"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user225687/Desktop/effective-internship/effective-internship/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
